@@ -14,7 +14,6 @@
  /* Immagine del carousel responsiva */
  .carousel-item img {
      width: 100%;
-     max-height: 400px;
      /* altezza massima su desktop */
      object-fit: cover;
      display: block;
@@ -59,6 +58,12 @@
  #about p {
      max-width: 700px;
      font-size: 1.1rem;
+ }
+
+ .price {
+     color: #28a745;
+     font-weight: 600;
+     font-size: 1.2rem;
  }
 
  /* ================= Mobile ================= */

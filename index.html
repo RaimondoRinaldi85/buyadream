@@ -38,9 +38,10 @@
         <label for="catSelect">Categoria:</label>
         <select id="catSelect" class="form-select form-select-sm">
           <option value="all">Tutte</option>
-          <option value="sedan">Sedan</option>
-          <option value="suv">SUV</option>
-          <option value="hatchback">Hatchback</option>
+          <option value="audi">Audi</option>
+          <option value="bmw">BMW</option>
+          <option value="fiat">Fiat</option>
+          <option value="jeep">Jeep</option>
         </select>
       </div>
     </div>
@@ -50,43 +51,53 @@
   <main class="container">
     <div class="row" id="cardsWrapper">
       <!-- 1° Auto (Sedan) -->
-      <div class="col-12" data-category="sedan">
+      <div class="col-12 col-md-6" data-category="audi">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1589985938167-1b1a4bde9e0f?auto=format&fit=crop&w=800&q=80"
-            class="card-img-top" alt="Toyota Corolla">
+          <img src="./img/q5 sportback3.jpg" class="card-img-top img-fluid" alt="">
           <div class="card-body">
-            <h5 class="card-title">Toyota Corolla 2021</h5>
-            <p class="card-text">1.5 L, 115 CV, cambio automatico. 20 000 km. Ottimo stato.</p>
-            <h6 class="price mb-3">18.500€</h6>
-            <a href="car1.html" class="btn btn-detail">Mostra</a>
+            <h5 class="card-title">Audi Q5 Sportback</h5>
+            <p class="card-text">2.0 tdi mhev+ S line ed.quattro 204cv s-tronic.</p>
+            <h6 class="price mb-3">49.490€</h6>
+            <a href="Audi Q5 Sportback.html" class="btn btn-detail">Mostra</a>
           </div>
         </div>
       </div>
 
       <!-- 2° Auto (SUV) -->
-      <div class="col-12" data-category="suv">
+      <div class="col-12 col-md-6" data-category="bmw">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1544445909-0e4c8d9b7f1e?auto=format&fit=crop&w=800&q=80"
-            class="card-img-top" alt="Ford Mustang">
+          <img src="./img/BMW Serie 1.jpg" class="card-img-top img-fluid" alt="">
           <div class="card-body">
-            <h5 class="card-title">Ford Mustang 2019</h5>
-            <p class="card-text">5.0 L V8, 450 CV, cambio manual. 35 000 km. Estetica impeccabile.</p>
-            <h6 class="price mb-3">18.500€</h6>
-            <a href="car1.html" class="btn btn-detail">Mostra</a>
+            <h5 class="card-title">BMW Serie 1</h5>
+            <p class="card-text">5 Porte, 118d Sport auto.</p>
+            <h6 class="price mb-3">23.900€</h6>
+            <a href="bmw serie1.html" class="btn btn-detail">Mostra</a>
           </div>
         </div>
       </div>
 
       <!-- 3° Auto (Hatchback) -->
-      <div class="col-12" data-category="hatchback">
+      <div class="col-12 col-md-6" data-category="fiat">
         <div class="card">
-          <img src="https://images.unsplash.com/photo-1534538167485-b1e8b7e4b3c8?auto=format&fit=crop&w=800&q=80"
-            class="card-img-top" alt="Nissan Qashqai">
+          <img src="./img/fiat5001.jpg" class="card-img-top img-fluid" alt="">
           <div class="card-body">
-            <h5 class="card-title">Nissan Qashqai 2020</h5>
-            <p class="card-text">1.6 L e‑POWER, 150 CV, 12 000 km. Prima mano, tutti i documenti in regola.</p>
-            <h6 class="price mb-3">18.500€</h6>
-            <a href="car1.html" class="btn btn-detail">Mostra</a>
+            <h5 class="card-title">Fiat 500</h5>
+            <p class="card-text">1.2 Sport 69cv my20.</p>
+            <h6 class="price mb-3">13.000€</h6>
+            <a href="Fiat500.html" class="btn btn-detail">Mostra</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aggiungi qui altre card -->
+      <div class="col-12 col-md-6" data-category="jeep">
+        <div class="card">
+          <img src="./img/jeepren1.jpeg" class="card-img-top img-fluid" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Jeep Renegade</h5>
+            <p class="card-text">1.0 t3 Limited 2wd.</p>
+            <h6 class="price mb-3">15.000€</h6>
+            <a href="jeeprenegade.html" class="btn btn-detail">Mostra</a>
           </div>
         </div>
       </div>

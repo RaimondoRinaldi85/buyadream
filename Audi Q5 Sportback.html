@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buy a Dream</title>
+    <link rel="stylesheet" href="./css/cars.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Google (facoltativo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- ================= Header ================= -->
+    <header class="position-relative bg-primary text-white py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="text-center text-md-start mt-3 mt-md-0">
+                <!-- Titolo e sottotitolo -->
+                <h1>Buy a Dream</h1>
+                <hr>
+                <!-- Pulsante Home -->
+                <a href="index.html" class="btn btn-light btn-sm mb-2 mb-md-0">
+                    <i class="bi bi-house-door me-1"></i> Home
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ================= Gallery Slider ================= -->
+    <main class="container">
+        <h1>Audi Q5 Sportback</h1>
+        <h3 class="price">49.490€</h3>
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- 1ª slide -->
+                <div class="carousel-item active">
+                    <img src="./img/q5 sportback3.jpg" class="d-block w-100 img-fluid" alt="Immagine 1">
+                </div>
+
+                <!-- 2ª slide -->
+                <div class="carousel-item">
+                    <img src="./img/q5 sportback2.jpg" class="d-block w-100 img-fluid" alt="Immagine 2">
+                </div>
+
+                <!-- 3ª slide -->
+                <div class="carousel-item">
+                    <img src="./img/q5 sportback4.jpg" class="d-block w-100 img-fluid" alt="Immagine 3">
+                </div>
+                <!-- 4ª slide -->
+                <div class="carousel-item">
+                    <img src="./img/q5 sportback5.jpg" class="d-block w-100 img-fluid" alt="Immagine 4">
+                </div>
+            </div>
+
+            <!-- Controlli bootstrap -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Precedente</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Successivo</span>
+            </button>
+        </div>
+
+        <!-- Thumbnails (mini‑navigatore) -->
+        <div class="thumbnails">
+            <img src="./img/q5 sportback3.jpg" data-bs-target="#galleryCarousel" data-bs-slide-to="0"
+                class="active img-fluid" alt="Thumb 1">
+            <img src="./img/q5 sportback2.jpg" data-bs-target="#galleryCarousel" data-bs-slide-to="1" class="img-fluid"
+                alt="Thumb 2">
+            <img src="./img/q5 sportback4.jpg" data-bs-target="#galleryCarousel" data-bs-slide-to="2" class="img-fluid"
+                alt="Thumb 3">
+            <img src="./img/q5 sportback5.jpg" data-bs-target="#galleryCarousel" data-bs-slide-to="2" class="img-fluid"
+                alt="Thumb 3">
+        </div>
+    </main>
+
+    <!-- ================= Sezione “about” ================= -->
+    <section id="about">
+        <div class="container">
+            <h2>Specifiche</h2>
+            <div class="row">
+
+                <p class="col-12 col-md-6" style="border-top: 1px black solid;">
+                    <br>
+                    <strong>Immatricolazione:</strong> 07/2022 <br><br>
+                    <strong>Chilometri:</strong> 66.808 Km<br><br>
+                    <strong>Alimentazione:</strong> Hybrid (Ibrido/Diesel)<br><br>
+                    <strong>Peso:</strong> 2.045 kg<br><br>
+                    <strong>Cambio Automatico:</strong> sequenziale / 7M<br><br>
+                    <strong>Cilindrata:</strong> 2.000 cm³<br><br>
+                    <strong>Descr. Colore:</strong> GRIGIO MET<br><br>
+                    <strong>Colore Interni:</strong> Nero<br><br>
+                    <strong>Porte/Posti:</strong> 5/5<br><br>
+                    <strong>Potenza:</strong> 150 kw / 204 Cv<br><br>
+                    <strong>Trazione:</strong> Integrale<br><br>
+                    <strong>Emissioni:</strong> Euro 6<br><br>
+                </p>
+                <p class="col-12 col-md-6" style="border-top: 1px black solid;"">
+                    <br><br>
+                    <strong>Larghezza Carrozzeria:</strong> 1,90 m<br><br>
+                    <strong>Lunghezza Carrozzeria:</strong> 4,72 m<br><br>
+                    <strong>Altezza Carrozzeria:</strong> 1,64 m<br><br>
+                    <strong>Bagagliaio:</strong> 515/1415 dm³<br><br>
+                    <strong>Tipo Motore:</strong> TDI mHEV+<br><br>
+                    <strong>Architettura Motore:</strong> 4 cilindri in Linea<br><br>
+                    <strong>Regime:</strong> 3.800 giri/min<br><br>
+                    <strong>Coppia massima:</strong> 400/1750 Nm<br><br>
+                    <strong>Velocità massima:</strong> 226 km/h<br><br>
+                    <strong>Da 0 a 100km/h:</strong> 7,40 secondi<br><br>
+                    <strong>Consumi:</strong> 5,90 l/100 km<br><br>
+                    <strong>Emissioni CO2:</strong> 155 g/km<br><br>
+
+                </p>
+                <hr>
+            
+
+<h2>Contattaci</h2>
+            <a href=" mailto:info@autoco.it?subject=Richiesta%20di%20informazioni"
+                    class="btn btn-primary btn-lg mt-4 col-12">
+                    Telefono</a>
+                    <a href=" mailto:info@autoco.it?subject=Richiesta%20di%20informazioni"
+                        class="btn btn-primary btn-lg mt-4 col-12">
+                        Mail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 mt-5 bg-dark text-white">
+        &copy; 2025 Buy a Dream Tutti i diritti riservati.
+    </footer>
+
+    <!-- ================= JS ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const thumbs = document.querySelectorAll('.thumbnails img');
+        thumbs.forEach((thumb, idx) => {
+            thumb.addEventListener('click', () => {
+                const carousel = bootstrap.Carousel.getInstance(document.getElementById('galleryCarousel'));
+                carousel.to(idx);
+            });
+        });
+
+        const carouselEl = document.getElementById('galleryCarousel');
+        carouselEl.addEventListener('slid.bs.carousel', function (e) {
+            thumbs.forEach((thumb, idx) => {
+                thumb.classList.toggle('active', idx === e.to);
+            });
+        });
+    </script>
+</body>
+
+</html>
